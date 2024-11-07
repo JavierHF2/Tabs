@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    background-color: #F1F3F8;
+}
+
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.contenedor_titulo h2 {
+    color: #1e84f199;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    margin: 20px 0px 20px 0px;
+}
+
+.menu ul a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    padding: 20px 30px 20px 30px;
+    border-radius: 7px;
+}
+
+.menu ul a:hover {
+    background-color: #3A72D4;
+    color: white;
+}
+
+.tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.tab figure {
+    position: relative;
+}
+
+.tab img {
+    
+    
+}
+
+#figura2 {
+    grid-column: span 2;
+}
+
+.filtro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 132, 241, 0.6);
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: none;
+}
+
+.tab figure:hover .filtro {
+    display: flex;
+    transition: all 1s linear;
+}
+
+.filtro_texto i {
+    font-size: 50px;
+}
+
+.chevron {
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    color: #1e84f199;
+    border-radius: 100px;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonview {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+footer {
+    max-width: 1200px;
+    height: 50px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    max-width: 1200px;
+    height: 50px;
+    margin: auto;
+    background-color: white;
+}
+
+
+
+#tab2 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#tab3 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#tab4 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#tab5 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
